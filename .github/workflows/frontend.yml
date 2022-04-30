@@ -33,7 +33,7 @@ jobs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ env.GITHUB_TOKEN }}
+        password: ${{ secrets.GIT_HUB_CON_REG_TOKEN }}
         
     #Akcja do budowania obrazów i publikowania ich na GHCR.
     #Obrazy publikowane są na zad1_dod1:serwer.
