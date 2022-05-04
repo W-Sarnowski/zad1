@@ -48,4 +48,4 @@ jobs:
           push: true
           tags: ghcr.io/scoutertf2/zad1:dod1
           cache-from: type=registry,ref=ghcr.io/scoutertf2/zad1:dod1
-          cache-to: type=registry
+          cache-to: type=inline
