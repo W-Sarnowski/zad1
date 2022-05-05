@@ -54,7 +54,7 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: ghcr.io
-        username: ${{ github.actor }}
+        username: W-Sarnowski
         password: ${{ secrets.GIT_HUB_CON_REG_TOKEN }}
         
     #Akcja do budowania obrazów i publikowania ich na GHCR.
