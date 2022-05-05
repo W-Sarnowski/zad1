@@ -29,8 +29,8 @@ jobs:
     - name: Login to DockerHub
       uses: docker/login-action@v1 
       with:
-        username: ${{ secrets.DOCKER_HUB_USERNAME }}
-        password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+        username: ${{ secrets.DH_USERNAME }}
+        password: ${{ secrets.DH_KEY }}
       
   #Akcja do budowania obrazów i publikowania ich na GHCR.
   #Obrazy publikowane są na zad1_dod1:serwer.
